@@ -56,7 +56,7 @@ export const dishes: Dish[] = [
   { id: "kadai-paneer", name: "Kadai Paneer", category: "Main Course", price: 269, image: kadaiPaneer, description: "Paneer, capsicum and onion cooked with freshly ground kadai masala." },
   { id: "dal-makhani", name: "Dal Makhani", category: "Main Course", price: 229, image: dalMakhani, featured: true, description: "Black lentils slow-cooked overnight with butter and cream — a house favourite." },
   { id: "mix-veg", name: "Mix Veg", category: "Main Course", price: 209, image: mixVeg, description: "Seasonal vegetables in a homestyle onion-tomato masala." },
-  { id: "malai-kofta", name: "Malai Kofta", category: "Main Course", price: 259, image: malaiKofta, description: "Paneer and potato dumplings in a velvety, gently spiced cream gravy." },
+  { id: "malai-kofta", name: "Malai Kofta", category: "Main Course", price: 259, image: malaiKofta, featured: true, description: "Paneer and potato dumplings in a velvety, gently spiced cream gravy." },
 
   { id: "butter-naan", name: "Butter Naan", category: "Indian Breads", price: 59, image: butterNaan, description: "Soft tandoor-baked naan brushed generously with butter." },
   { id: "garlic-naan", name: "Garlic Naan", category: "Indian Breads", price: 69, image: garlicNaan, description: "Naan topped with chopped garlic and fresh coriander." },
