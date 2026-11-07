@@ -15,4 +15,10 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  vite: {
+    // Pre-bundle UI deps up front so a late re-optimization can't load a second React copy.
+    optimizeDeps: {
+      include: ["@radix-ui/react-slot", "class-variance-authority", "clsx", "tailwind-merge", "lucide-react"],
+    },
+  },
 });
